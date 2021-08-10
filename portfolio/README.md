@@ -1,4 +1,4 @@
-# The Tech Academy - HTML & CSS Projects
+# The Tech Academy - Portfolio | Projects
 
 >"*People who are crazy enough to think they can change the world, are the ones who do.*"  ~ Rob Siltanen
 
@@ -14,11 +14,15 @@ I am currently enrolled in the Tech Academy’s Cyber Security Boot Camp, and am
 <br>
 <br>
 
-## Recent HTML &amp; CSS Projects
+## Recent Projects
 
 
-* [One Page Site Containing Various Assignments/Challenges](https://github.com/pn-cyber/html-and-css-projects/blob/github-assignment/pp_444-460_assignment-challenges.html)
+* [Basic HTML Website Project](https://github.com/pn-cyber/Tech-Academy-Projects/tree/front-end-web-development-and-security-course-projects/portfolio/projects/basic-html-website-project)
 
-* [Basic One Page Website Project](https://github.com/pn-cyber/html-and-css-projects/tree/github-assignment/basic-html-website-project)
+* [One Page Website Project](https://github.com/pn-cyber/Tech-Academy-Projects/tree/front-end-web-development-and-security-course-projects/portfolio/projects/one-page-website)
 
-* [Final Project & The Start of My Portfolio](https://github.com/pn-cyber/html-and-css-projects/tree/github-assignment/Final-Project)
+* [To-Do List App](https://github.com/pn-cyber/Tech-Academy-Projects/tree/front-end-web-development-and-security-course-projects/portfolio/projects/to-do_app)
+
+* [My Online Portfolio](https://www.paulnoia.com/)
+
+* [To-Do List App - Live](https://www.paulnoia.com/projects/to-do_app/)
