@@ -1,0 +1,86 @@
+html {
+    font-family: "Avenir Next", Helvetica, sans-serif;
+    text-align: center;
+}
+
+body {
+    max-width: 500px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#todos {
+    height: 350px;
+    overflow: scroll;
+}
+
+footer.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    margin-top: 20px;
+    bottom: 0;
+    padding: 20px;
+    font-size: 20px;border-style: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+  }
+
+input {
+    padding: 10px;
+    width: 475px;
+    height: 60px;
+    font-size: 25px;
+    border-style: none;
+    border-radius: 45px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+    input:focus {
+        outline: none;
+    }
+
+ul {
+    margin: 0 auto;
+}
+
+li {
+    text-align: left;
+    font-size: 40px;
+    list-style: none;
+    margin: 0;
+}
+
+/* buttons */
+
+button#add {
+    margin: 20px auto;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+button#add:hover {
+    padding: 9px;
+    background-color: white;
+    color: #4CAF50;
+    border: 1px solid #4CAF50;
+}
+
+.remove {
+    margin-bottom: 10px;
+    background-color: #af4c4c;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.remove:hover {
+    padding: 4px;
+    background-color: white;
+    color: #af4c4c;
+    border: 1px solid #af4c4c;
+  }

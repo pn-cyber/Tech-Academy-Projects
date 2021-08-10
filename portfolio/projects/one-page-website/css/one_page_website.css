@@ -1,0 +1,321 @@
+@charset "utf-8";
+/* CSS Document for my One Page Website Assignment*/
+
+html {
+    font-family: sans-serif;
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0%;
+    font-size: 14px;
+    margin: 0;
+    font-family: "Helvetica Neue", Arial, "sans-serif";
+    line-height: 1.42857143;
+    color: #fff;
+    background-color: rgb(60, 0, 0);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-variant: small-caps;
+    color: white;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+h1, h2 {
+    letter-spacing: 4px;
+    text-shadow: 2px 4px 8px rgb(0, 0, 0);
+}
+
+h1 {
+    font-size: 4.5em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+p {
+    font-weight: 300;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.heading-padding {
+    padding-bottom: 40px;
+}
+
+section {
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+.navbar {
+    height: 105px;
+    max-height: 340px;
+    display: block;
+}
+
+.container {
+    width: 50%;
+}
+
+.container,
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0px auto;
+    width: 75%;
+    background-color: rgb(22, 22, 22); /* rgb(255, 170, 100); */
+    box-shadow: 2pxp p2px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.clearfix:after,
+.container:after,
+.navbar:after {
+    clear: both;
+    display: table;
+    content: " ";
+}
+
+.wrap {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /* This ensures that the images cannot
+       render outside of their container
+       without forcing any scrollbars */
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+.menu-container {
+    max-height: 340px;
+    margin: 0% auto;
+    margin-top: -25px;
+    content: " ";
+    /* top: 0;
+    left: 0; */
+    /* position: absolute; */ /* to the top edge of the screen */
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+}
+
+/******************
+Home Section Styles
+******************/
+#home {
+    background: url(../images/thumbs/nick-johnston-thumb.png) no-repeat 50% 50%;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: auto;
+    padding-top: 250px; /* This is a spacer before the Main Title Logo */
+    padding-bottom: 600px; /* This is a space after the Main Title Logo */
+    color: #fff;
+}
+
+.head-main h1 {
+    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.9);
+    font-variant: small-caps;
+    background-color: rgba(50, 50, 4950, 0.3);
+    letter-spacing: 5pt;
+    word-spacing: 21pt;
+    font-size: 5.0em;
+    line-height: 2;
+    font-weight: 900;
+    border: 5px double white;
+    padding: 10px 5px;
+}
+
+.head-sub-main {
+    font-size: 23px;
+    font-weight: 500;
+    padding: 50px 20px 10px 20px;
+    text-transform: uppercase;
+}
+
+.head-last {
+    font-size: 18px;
+    font-weight: 900;
+    padding: 5px 20px 20px 20px;
+    border: 1px dotted #fff;
+    padding: 5px;
+}
+
+/*************
+Contact Styles
+*************/
+.video-container {
+    margin: 0% auto;
+}
+.video {
+    float: left;
+    margin: 10px;
+}
+
+/*************
+Contact Styles
+*************/
+#contact {
+    background-color: #770707;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.newsletter form {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #8f8d8d;
+    outline: none;
+    padding: 12px 12px;
+    width: 40%;
+    border: 1px solid #808080;
+    margin: 2% auto;
+    border-radius: 25px;
+    background: rgb(255, 158, 158);
+    box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
+}
+
+.newsletter input[type="text"] {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #8f8d8d;
+    letter-spacing: 1px;
+    outline: none;
+    padding: 2% 1% 2% 7%;
+    width: 86%;
+    border-top: 1px solid #0d0909;
+    border-right: 2px solid #494242;
+    border-bottom: 2px solid #494242;
+    border-left: 1px solid #0d0909;
+    margin: 10px 1em;
+    border-radius: 25px;
+    background: #1b1313;
+    box-shadow: inset 0px 3px 0px rgba(5, 5, 5, 0.15);
+}
+
+.newsletter input[type="text"]:hover {
+    box-shadow: 0 0 18px rgba(100, 0, 0, 0.8)
+}
+
+.form-spacer {
+    padding: 30px 39px;
+}
+
+.submit input[type="submit"] {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: red;
+    letter-spacing: 1px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin: 20px 15px;
+    padding: 1% 1%;
+    width: 25%;
+    transition: border-color 0.3s color 0.3s background-color 0.3s;
+    border-radius: 25px;
+    background-color: #1b1313;
+    box-shadow: 1px 1px 15px 0 rgb(255, 2, 2);
+}
+
+.submit input[type="submit"]:hover {
+    color: #1b1313;
+    background-color: red;
+    box-shadow: inset 4px 8px 15px 0 rgba(0, 0, 0, 0.5);
+    transition-duration: .5s;
+    transform-box: red;
+
+}
+
+.terms a {
+    text-decoration: none;
+    color: #333;
+}
+
+.terms a:hover {
+    text-decoration: none;
+    color: #1b1313;
+}
+
+/************ 
+Footer Styles
+************/
+#footer {
+    background-color: rgba(100, 0, 0, 0.3);
+    color:rgb(145, 145, 145);
+    text-shadow: 2px 2px 8px 0 (0, 0, 0, 0.4);
+    padding: 20px 50px 20px 50px;
+    text-align: center;
+}
+
+/* **********
+Media Queries
+************/
+@media all and (max-width:640px) and (min-width:381px) {
+    .head-main {
+        font-size: 28px;
+    }
+}
+
+@media all and (max-width:381px) and (min-width:200px) {
+    .head-main {
+        font-size: 24px;
+    }
+}
+
+@media (min-width:768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
+}
