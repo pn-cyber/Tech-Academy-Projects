@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' default-src https://www.paulnoia.com default-src https://paulnoia.com">
         <link rel="stylesheet" href="css/todo.css">
         <title>To-Do List App</title>
     </head>
@@ -11,46 +14,6 @@
         <div id=todos></div>
 
         <script src="js/todo.js"></script>
-
-        <!-- Begin Challenges 
-
-        <div> 
-
-        <div id="myGuitar">
-
-        <script>
-            /*JavaScript dictionary object*/
-            var guitar = {brand: "Schector", model: "Hell Raiser", color: "Red"};
-            var JSONstring = JSON.stringify(guitar);
-            document.getElementById("myGuitar").innerHTML = JSONstring;
-        </script>
-
-        <div id="myGuitar2"></div>
-
-        <script>
-            /* This is a JSON string variable */
-            var guitar2 = '{"brand": "Schecter", "model": "Hell Raiser", "color": "Red"}';
-    
-            /* Convert JSON strings to JS objects */
-            var JSONstring = JSON.parse(guitar2);
-    
-            document.getElementById("myGuitar2").innerHTML = "The " + JSONstring.brand + ", " + JSONstring.model +
-" is a rockin' guitar! ";     
-        </script>
-
-        <div id="myGuitar3"></div>
-
-        <script>
-        /* Set the data as a key/value pair to be save locally in you browser, */
-        localStorage.setItem("Brand", "Model");
-
-        /* then use the key "Brand" to return it's value "Model" */
-        document.getElementById("myGuitar3").innerHTML - localStorage.getItem("Brand");
-        </script>
-
-        </div>
-        
-         End Challenges -->
          <hr>
         <footer class="sticky">To-Do List App</footer>
     </body>
