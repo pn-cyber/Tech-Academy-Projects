@@ -5,7 +5,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width" />
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' default-src https://www.paulnoia.com default-src https://paulnoia.com script-src paulnoia.com 'nonce-r@nd0m';">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline';  default-src https://www.paulnoia.com default-src https://paulnoia.com">
         <link rel="stylesheet" type="text/css" href="css/portfolio.css">
         <title>Paul Noia | Porfolio</title>
     </head>
@@ -21,7 +21,7 @@
             <a href="#GitHub">GitHub</a>
             <a href="#Projects">Projects</a>
             <!-- Onclick and ondblclick functions added to open and close the contact form -->
-            <script nonce="r@nd0m"><a onclick="openForm()" ondblclick="closeForm()">Contact</a></script>
+            <a onclick="openForm()" ondblclick="closeForm()">Contact</a>
         </div>
 
         <!-- Background video -->
