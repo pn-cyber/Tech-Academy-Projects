@@ -15,7 +15,7 @@ body {
     font-family: "Helvetica Neue", Arial, "sans-serif";
     line-height: 1.42857143;
     color: #333;
-    background-color: #fff;
+    background-color: rgb(255, 250, 230);
 }
 
 footer, 
@@ -213,7 +213,7 @@ Contact Styles
 }
 
 #contact {
-    background-color: #f5f3f3;
+    background-color: rgb(255, 250, 230);
 }
 
 .reservation {
