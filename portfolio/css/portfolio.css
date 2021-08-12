@@ -171,7 +171,17 @@ img:hover {
 /* Styling for footer element */
 footer {
     padding: 2%; /* This gives the footer padding that is equal to 2% of the width of the element's area */
-    background-color: white;
+    background-color: #333;
+    color: white;
+}
+
+footer p {
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+footer a {
+    color: white;
 }
 /***** END OF GENERAL STYLING *****/
 
